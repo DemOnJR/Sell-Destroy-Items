@@ -24,7 +24,7 @@ window = {
 			"width" : 185+30,
 			"height" : 417+17,
 			
-			"title" : "Toplu Nesne Ýþlemleri",
+			"title" : "LIST OF OBJECTS",
 
 			"children" :
 			(				
@@ -75,7 +75,7 @@ window = {
 					"width" : 61,
 					"height" : 21,
 
-					"text" : "Sýfýrla",
+					"text" : "Clear",
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
@@ -107,7 +107,7 @@ window = {
 					"width" : 61,
 					"height" : 21,
 
-					"text" : "Ýptal",
+					"text" : "Close",
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",

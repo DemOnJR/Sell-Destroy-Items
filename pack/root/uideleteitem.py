@@ -17,8 +17,8 @@ import uiToolTip
 from grid import Grid
 
 BILGI_AL = [
-	"Neslereri sürükleyerek ekleyebilirsiniz.",
-	"Silmekten vazgeçtiðiniz nesnenin üstüne týklayarak kaldýrabilirsiniz.",
+	"You can add objects by dragging.",
+	"You can remove it by clicking on the object you have stopped deleting.", 
 ]
 
 class DeleteItem(ui.ScriptWindow):
