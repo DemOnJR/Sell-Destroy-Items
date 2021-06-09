@@ -244,7 +244,7 @@ class DeleteItem(ui.ScriptWindow):
 			return
 
 		itemDropQuestionDialog = uiCommon.QuestionDialog()
-		itemDropQuestionDialog.SetText("Seçilen (|cffFDD017|h%d Adet|h|r) nesneyi silmek istiyor musun?" % (len(self.itemStock)))
+		itemDropQuestionDialog.SetText("Do you want to Destroy the (|cffFDD017|h%d Adet|h|r) selected objects?" % (len(self.itemStock)))
 		itemDropQuestionDialog.SetAcceptEvent(lambda arg=True: self.RequestDropItem(arg))
 		itemDropQuestionDialog.SetCancelEvent(lambda arg=False: self.RequestDropItem(arg))
 		itemDropQuestionDialog.Open()
@@ -256,7 +256,7 @@ class DeleteItem(ui.ScriptWindow):
 			return
 
 		itemDropQuestionDialog = uiCommon.QuestionDialog()
-		itemDropQuestionDialog.SetText("Seçilen (|cffFDD017|h%d Adet|h|r) nesneyi satmak istiyor musun?" % (len(self.itemStock)))
+		itemDropQuestionDialog.SetText("Do you want to Sell the (|cffFDD017|h%d Adet|h|r) selected objects?" % (len(self.itemStock)))
 		itemDropQuestionDialog.SetAcceptEvent(lambda arg=True: self.RequestSellItem(arg))
 		itemDropQuestionDialog.SetCancelEvent(lambda arg=False: self.RequestSellItem(arg))
 		itemDropQuestionDialog.Open()

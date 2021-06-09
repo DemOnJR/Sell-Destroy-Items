@@ -57,7 +57,7 @@ window = {
 					"width" : 61,
 					"height" : 21,
 
-					"text" : "Delete",
+					"text" : "Destroy",
 
 					"default_image" : "d:/ymir work/ui/public/middle_button_01.sub",
 					"over_image" : "d:/ymir work/ui/public/middle_button_02.sub",
