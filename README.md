@@ -4,7 +4,6 @@
 2. ITEM DESCRIPTION IN THE WINDOW
 3. SOLVE THE BUG: https://www.youtube.com/watch?v=AOhs9nv_t0M
 
-![image](https://user-images.githubusercontent.com/6385558/121388461-cd5bae80-c94b-11eb-879a-7bb4af6face9.png)
-
+![image](https://user-images.githubusercontent.com/6385558/121390314-8c649980-c94d-11eb-8be3-9b137238c2ec.png)
 
 Official link: https://forum.turkmmo.com/konu/3806875-toplu-sil-sat-sistemi/
