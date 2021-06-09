@@ -1,1 +1,3 @@
+// Add
+#define WJ_NEW_DROP_DIALOG
 #define ENABLE_ITEM_DELETE_SYSTEM
