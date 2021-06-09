@@ -240,11 +240,11 @@ class DeleteItem(ui.ScriptWindow):
 
 	def OnOk(self):
 		if (len(self.itemStock) == 0):
-			chat.AppendChat(chat.CHAT_TYPE_INFO, "Silinecek nesne yok.")
+			chat.AppendChat(chat.CHAT_TYPE_INFO, "There are no objects to Destroy.")
 			return
 
 		itemDropQuestionDialog = uiCommon.QuestionDialog()
-		itemDropQuestionDialog.SetText("Do you want to Destroy the (|cffFDD017|h%d Adet|h|r) selected objects?" % (len(self.itemStock)))
+		itemDropQuestionDialog.SetText("Do you want to Destroy the (|cffFDD017|h%d items|h|r) selected objects?" % (len(self.itemStock)))
 		itemDropQuestionDialog.SetAcceptEvent(lambda arg=True: self.RequestDropItem(arg))
 		itemDropQuestionDialog.SetCancelEvent(lambda arg=False: self.RequestDropItem(arg))
 		itemDropQuestionDialog.Open()
@@ -252,11 +252,11 @@ class DeleteItem(ui.ScriptWindow):
 
 	def OnSat(self):
 		if (len(self.itemStock) == 0):
-			chat.AppendChat(chat.CHAT_TYPE_INFO, "Satýlacak nesne yok.")
+			chat.AppendChat(chat.CHAT_TYPE_INFO, "There are no objects to Sell.")
 			return
 
 		itemDropQuestionDialog = uiCommon.QuestionDialog()
-		itemDropQuestionDialog.SetText("Do you want to Sell the (|cffFDD017|h%d Adet|h|r) selected objects?" % (len(self.itemStock)))
+		itemDropQuestionDialog.SetText("Do you want to Sell the (|cffFDD017|h%d items|h|r) selected objects?" % (len(self.itemStock)))
 		itemDropQuestionDialog.SetAcceptEvent(lambda arg=True: self.RequestSellItem(arg))
 		itemDropQuestionDialog.SetCancelEvent(lambda arg=False: self.RequestSellItem(arg))
 		itemDropQuestionDialog.Open()
