@@ -68,7 +68,7 @@ class DeleteItem(ui.ScriptWindow):
 		self.itemSlot.SetOverInItemEvent(ui.__mem_func__(self.OnOverInItem))
 		self.itemSlot.SetOverOutItemEvent(ui.__mem_func__(self.OnOverOutItem))
 		
-		self.bilgialbuton.SetToolTipWindow2(self.__ToolTipOlustur("Bilgilendirme", BILGI_AL))
+		self.bilgialbuton.SetToolTipWindow2(self.__ToolTipOlustur("Details", BILGI_AL))
 	
 	def Destroy(self):
 		self.ClearDictionary()
