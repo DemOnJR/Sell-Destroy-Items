@@ -106,7 +106,7 @@ class DeleteItem(ui.ScriptWindow):
 
 	def Temizle(self):
 		self.itemStock = {}
-		constInfo.ITEM_DELETE_LIST = {}
+		self.DeleteGrid = Grid(width=6, height=10)
 		self.Refresh()
 
 	def __ToolTipOlustur(self, title, descList):
